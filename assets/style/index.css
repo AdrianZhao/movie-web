@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+html {
+  font-family: Sofia Sans, sans-serif;
+}
+.container {
+  width: min(100% - 30px, 1200px);
+  margin-inline: auto;
+}
+body {
+  background-color: #1f2229;
+}
+header{
+  background-color: #3d3d3d;
+  height: 60px;
+}
+header .flex{
+  display: flex;
+  justify-content: space-between;
+}
+header .title h1{
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  color: #ee8232;
+  font-weight: 600;
+  line-height: 6rem;
+  letter-spacing: 0.02rem;
+}
+header nav ul{
+  display: flex;
+  list-style: none;
+  font-size: 0;
+}
+header nav ul li{
+  padding-left: 2.5rem;
+  display: block;
+  height: 6rem;
+  line-height: 6rem;
+}
+header nav ul li a{
+  color: #d8d8d9;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.5s;
+}
+header nav ul li a p {
+  text-align: center;
+}
+header nav ul li a:hover {
+  color: #ee8232;
+}
+.form{
+  position: relative;
+  margin: auto;
+  margin-top: 5rem;
+  width: 100%;
+  font-size: 0rem;
+  justify-content: space-between;
+}
+.form .movieName {
+  padding: 9px 4px 9px 40px;
+  height: 4.5rem;
+  width: 75%;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  background-color: #3d3d3d;
+  color: #fff;
+  border-radius: 0.8rem;
+}
+.form .cityName {
+  padding: 9px 4px 9px 40px;
+  margin-left: 1.5%;
+  height: 4.5rem;
+  width: 15%;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  background-color: #3d3d3d;
+  color: #fff;
+  border-radius: 0.8rem;
+}
+button {
+  margin-left: 1.5%;
+  height: 4.5rem;
+  width: 7%;
+  border-radius: 0.8rem;
+  background-color: #ee8232;
+  cursor: pointer;
+  color: #fff;
+}
+h2 {
+  margin-top: 5rem;
+  font-size: 3rem;
+  color: #fff;
+}
+.moviesWrapper {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 2rem;
+}
+img {
+  border-radius: 10px;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.detail p {
+  color: #fff;
+  margin-top: 1rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.droplistMovies {
+  margin-top: 0.5rem;
+  position: absolute;
+  background-color: #fff;
+}
+.droplistMovies div {
+  font-size: 2rem;
+  padding: 0.5rem 4rem 0.5rem 4rem;
+}
+.droplistMovies div:hover {
+  background-color: #ee8232;
+}
+.droplistCities {
+  width: 23.5%;
+  left: 76.5%;
+  right: auto;
+  margin-top: 0.5rem;
+  position: absolute;
+  background-color: #fff;
+}
+.droplistCities div {
+  font-size: 2rem;
+  padding: 0.5rem 4rem 0.5rem 4rem;
+}
+.droplistCities div:hover {
+  background-color: #ee8232;
+}

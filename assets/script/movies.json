@@ -1,0 +1,14 @@
+{
+  "movies": [
+    { "name": "Back to the future", "poster": "./assets/image/back-to-the-future.jpg"},
+    { "name": "Jurassic park", "poster": "./assets/image/jurassic-park.jpg"},
+    { "name": "No time to die", "poster": "./assets/image/no-time-to-die.jpg"},
+    { "name": "The devil wears prada", "poster": "./assets/image/the-devil-wears-prada.jpg"},
+    { "name": "The fellowship of the ring", "poster": "./assets/image/the-fellowship-of-the-ring.jpg"},
+    { "name": "Terminator 2 judgment day", "poster": "./assets/image/terminator-2-judgment-day.jpg"},
+    { "name": "The godfather", "poster": "./assets/image/the-godfather.jpg"},
+    { "name": "The grand budapest hotel", "poster": "./assets/image/the-grand-budapest-hotel.jpg"},
+    { "name": "The matrix", "poster": "./assets/image/the-matrix.jpg"},
+    { "name": "The shining", "poster": "./assets/image/the-shining.jpg"}
+  ]
+}

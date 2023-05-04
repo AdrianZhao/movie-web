@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initinal-scale=1">
+    <meta name="author" content="Yuhan Zhao">
+    <meta name="discription" content="My Web Page">
+    <meta name="keywords" content="html, css, web, web development, seo">
+    <title>Movie Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;600&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AdrianZhao/cdn@latest/reset.css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/style/index.css" media="all">
+    <script src="./assets/script/index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container flex">
+        <div class="title">
+          <h1>Tickets</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#"><p>Movies</p></a></li>
+            <li><a href="#"><p>Theatres</p></a></li>
+            <li><a href="#"><p>About us</p></a></li>
+            <li><a href="#"><p>Contact us</p></a></li>
+            <li><a href="#"><p>My account</p></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="form">
+          <form>
+            <input type="text" class="movieName" id="movie-name" placeholder="Serach movies...">
+            <div class="droplistMovies"></div>
+            <input type="text" class="cityName" id="city-name" placeholder="Serach cities...">
+            <div class="droplistCities"></div>
+            <button>Search</button>
+          </form>
+        </div>
+        <h2>Now Playing</h2>
+        <section class="moviesWrapper"></section>
+      </div>
+    </main>
+  </body>
+</html>
