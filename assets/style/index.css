@@ -18,7 +18,16 @@ header .flex{
   display: flex;
   justify-content: space-between;
 }
+header .title {
+  display: flex;
+}
+header .title i {
+  font-size: 2.6rem;
+  color: #ee8232;
+  line-height: 6rem;
+}
 header .title h1{
+  margin-left: 1rem;
   font-size: 2.6rem;
   text-transform: uppercase;
   color: #ee8232;
@@ -102,6 +111,11 @@ h2 {
 img {
   border-radius: 10px;
   box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+img:hover {
+  scale: 1.05;
+  transition: all 0.3s;
 }
 .detail p {
   color: #fff;
@@ -117,9 +131,11 @@ img {
 .droplistMovies div {
   font-size: 2rem;
   padding: 0.5rem 4rem 0.5rem 4rem;
+  transition: all 0.3s;
 }
 .droplistMovies div:hover {
   background-color: #ee8232;
+  color: #fff;
 }
 .droplistCities {
   width: 23.5%;
@@ -132,7 +148,9 @@ img {
 .droplistCities div {
   font-size: 2rem;
   padding: 0.5rem 4rem 0.5rem 4rem;
+  transition: all 0.3s;
 }
 .droplistCities div:hover {
   background-color: #ee8232;
+  color: #fff;
 }
